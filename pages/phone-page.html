@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Open Shop - Phones</title>
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/all.min.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/hover.css">
+   <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+
+   <nav class="navbar navbar-expand-sm info-nav">
+      <div class="container">
+         <button class="navbar-toggler ms-auto info-nav__btn" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Переключатель навигации">
+            <span class="iconify info-nav__icon" data-icon="carbon:overflow-menu-vertical" data-width="25"
+               data-height="25"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto menu row">
+               <li class="nav-item dropdown lang col-sm-2 menu__list">
+                  <a class=" menu__link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                     English
+                     <span class="iconify drop__icon" data-icon="akar-icons:arrow-cycle" data-width="15"
+                        data-height="15"></span>
+                  </a>
+                  <ul class="dropdown-menu drop row" aria-labelledby="navbarDropdown">
+                     <li><a class="dropdown-item lang__link" href="#">English</a></li>
+                     <li><a class="dropdown-item disabled lang__link" href="#">Russian</a></li>
+                  </ul>
+               </li>
+               <li class="nav-item col-sm-5 menu__list">
+                  <a class="menu__link" href="tel:+9075550101"><span class="iconify menu__icon"
+                        data-icon="ic:outline-call" data-width="20" data-height="20"></span>(907) 555-0101</a>
+               </li>
+               <li class="nav-item col-sm-3 menu__list">
+                  <a class="menu__link" href="#"><span class="iconify menu__icon" data-icon="ion:person-outline"
+                        data-width="20" data-height="20"></span>Sing in</a>
+               </li>
+               <li class="nav-item col-sm-2 menu__list">
+                  <a class="menu__link" href="#"><span class="iconify menu__icon" data-icon="clarity:shopping-cart-line"
+                        data-width="22" data-height="22"></span>Cart</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+
+   <header class="header">
+      <nav class="navbar navbar-expand logo-nav">
+         <div class="container justify-content-sm-center">
+            <div class="row w100p">
+               <div class="logo-search col-md-9 row">
+                  <a class="logo col-lg-3 pb-3 pb-lg-0 justify-content-center justify-content-lg-start" href=""><img
+                        src="../img/Logo-Bl.png" alt="" class="logo__img"></a>
+                  <div class="d-flex align-items-center col-lg-8">
+                     <form class="d-flex search1" role="search">
+                        <input class="input" type="search" placeholder="What are you looking for?" aria-label="Поиск">
+                        <button class="btn btn-outline-success button search__btn" type="submit"><span
+                              class="iconify search1__icon" data-icon="bytesize:search" data-width="20"
+                              data-height="20"></span>SEARCH OUR
+                           STORE</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg products">
+         <div class="container justify-content-end">
+            <button class="categories navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false"
+               aria-label="Переключатель навигации">
+               <span class="iconify" data-icon="bxs:category-alt" data-width="20" data-height="20"></span>
+               <span class="categories__title">Categories</span>
+            </button>
+            <div class="collapse navbar-collapse products__box row" id="navbarSupportedContent2">
+               <ul
+                  class="navbar-nav ms-auto products__menu col-xl-11 text-end text-lg-start justify-content-md-evenly flex-column flex-lg-row">
+                  <li class="products__list dropdown">
+                     <a class="products__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cell Phones & Tablets
+                     </a>
+                     <ul class="dropdown-menu products__sub-menu row" aria-labelledby="navbarDropdown">
+                        <div class="div1 col-6">
+                           <h4 class="products__title">Cell Phones</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Nokia </a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Inoi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Vivo</a></li>
+                        </div>
+                        <div class="div2 col-6">
+                           <h4 class="products__title">Tablets</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">More...</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="products__list dropdown">
+                     <a class="products__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Computers & Laptop
+                     </a>
+                     <ul class="dropdown-menu products__sub-menu row" aria-labelledby="navbarDropdown">
+                        <div class="div1 col-6">
+                           <h4 class="products__title">Computers</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">hp</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Acer</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Asus</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Lenovo</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">China</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">PC</a></li>
+                        </div>
+                        <div class="div2 col-6">
+                           <h4 class="products__title">Laptop</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Asus</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Acer</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">hp</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">More...</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="products__list dropdown">
+                     <a class="products__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        TV & Video
+                     </a>
+                     <ul class="dropdown-menu products__sub-menu row" aria-labelledby="navbarDropdown">
+                        <div class="div1 col-6">
+                           <h4 class="products__title">TV</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">LG</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Artel</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Zeus</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">hp</a></li>
+                        </div>
+                        <div class="div2 col-6">
+                           <h4 class="products__title">Video</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">LG</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">More...</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="products__list dropdown">
+                     <a class="products__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Asseccories
+                     </a>
+                     <ul class="dropdown-menu products__sub-menu row" aria-labelledby="navbarDropdown">
+                        <div class="div1 col-6">
+                           <h4 class="products__title">Cell Phones</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Nokia </a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Inoi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Vivo</a></li>
+                        </div>
+                        <div class="div2 col-6">
+                           <h4 class="products__title">Tablets</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">More...</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="products__list dropdown">
+                     <a class="products__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Video Games & Consoles
+                     </a>
+                     <ul class="dropdown-menu products__sub-menu row" aria-labelledby="navbarDropdown">
+                        <div class="div1 col-6">
+                           <h4 class="products__title">Video Games</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Nokia </a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Inoi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Vivo</a></li>
+                        </div>
+                        <div class="div2 col-6">
+                           <h4 class="products__title">Consoles</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">More...</a></li>
+                        </div>
+                     </ul>
+                  </li>
+                  <li class="products__list dropdown">
+                     <a class="products__link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Home appliance
+                     </a>
+                     <ul class="dropdown-menu products__sub-menu row" aria-labelledby="navbarDropdown">
+                        <div class="div1 col-6">
+                           <h4 class="products__title">Cell Phones</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Nokia </a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Inoi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Vivo</a></li>
+                        </div>
+                        <div class="div2 col-6">
+                           <h4 class="products__title">Tablets</h4>
+                           <li><a class="dropdown-item products__link2" href="#">Xiaomi</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Apple</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Samsung</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">Huawei</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">BQ</a></li>
+                           <li><a class="dropdown-item products__link2" href="#">More...</a></li>
+                        </div>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main class="main">
+      <section class="slider">
+         <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+               <div class="row text-center text-xl-start">
+                  <div class="col-lg-6 text-center">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img src="../img/Color-2.png" class="slider__img" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                           <img src="../img/Color-3.png" class="slider__img p4" alt="...">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 d-flex flex-column justify-content-center order-last order-lg-0">
+                     <h2 class="slider__title">Color your days with small joy</h2>
+                     <a href="" class="button slider__btn">SHOP NOW</a>
+                  </div>
+                  <div class="carousel-indicators slider__indicators align-items-center">
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active slider__indicator" aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2" class="slider__indicator"></button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="Apple">
+         <div class="container">
+            <h2 class="phone__title main-title">Apple</h2>
+            <div class="d-grid cards-2">
+               <div class="card-2">
+                  <img src="../img/Iphone 12 grey.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">IPhone 12 Pro Max 128GB (Gray)</h4>
+                  <p class="card-2__price">1300$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Iphone 11 yellow.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">IPhone 11 Pro 128GB (Yellow)</h4>
+                  <p class="card-2__price">700$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Iphone 12 blue.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">IPhone 12 Pro 256 GB (Blue)</h4>
+                  <p class="card-2__price">1500$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Iphone 11 red.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">IPhone 11 Pro 256 GB (Red)</h4>
+                  <p class="card-2__price">850$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+            </div>
+            <a href="pages/phone-page.html" class="phone__link link button">LEARN MORE</a>
+         </div>
+      </section>
+      <section class="Samsung">
+         <div class="container">
+            <h2 class="phone__title main-title">Samsung</h2>
+            <div class="d-grid cards-2">
+               <div class="card-2">
+                  <img src="../img/Samsung A51.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">Samsung Galaxy A51 4/64GB (Black)</h4>
+                  <p class="card-2__price">230$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Samsung A21S.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">Samsung Galaxy A21S 3/32GB (Blue)</h4>
+                  <p class="card-2__price">250$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Samsung S10 lite.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">Samsung Galaxy S10Lite 6/128GB (Blue)</h4>
+                  <p class="card-2__price">535$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Samsung A41.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">Samsung Galaxy A41 4/64GB (Blue)</h4>
+                  <p class="card-2__price">237$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+            </div>
+            <a href="pages/phone-page.html" class="phone__link link button">LEARN MORE</a>
+         </div>
+      </section>
+      <section class="Xiaomi">
+         <div class="container">
+            <h2 class="phone__title main-title">Xiaomi</h2>
+            <div class="d-grid cards-2">
+               <div class="card-2">
+                  <img src="../img/Mi 10 Pro black.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">Mi 10t Pro 8/256GB (Black)</h4>
+                  <p class="card-2__price">730$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Mi 10 Pro Silver.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">
+                     Xiaomi mi 10t Pro 8/256GB (Silver)</h4>
+                  <p class="card-2__price">727$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Mi 10 lite grey.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">Mi 10 Lite 6/64GB (Grey)</h4>
+                  <p class="card-2__price">337$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+               <div class="card-2">
+                  <img src="../img/Mi 10 lite blue.png" alt="" class="card-2__img">
+                  <h4 class="card-2__title">Mi 10 Lite 6/64GB (Blue)</h4>
+                  <p class="card-2__price">325$</p>
+                  <span class="iconify card-2__icon position-absolute" data-icon="akar-icons:heart" data-width="17"
+                     data-height="15"></span>
+                  <a href="" class="card-2__link button link">BUY</a>
+               </div>
+            </div>
+            <a href="pages/phone-page.html" class="phone__link link button">LEARN MORE</a>
+         </div>
+      </section>
+      <section class="x-box">
+         <div class="container">
+            <div class="x-box__content">
+               <h2 class="x-box__title">Xbox Wireless Controller</h2>
+               <p class="x-box__desc">Textured triggers and bumpers I Hybrid D-pad I Button mapping I Bluetooth</p>
+            </div>
+         </div>
+         <div class="x-box__image">
+            <img src="../img/X-box.png" alt="" class="x-box__img">
+            <a href="" class="x-box__link button link">ADD TO CART</a>
+         </div>
+      </section>
+      <nav class="next">
+         <ul class="pagination justify-content-center">
+            <li class="next__item active"><a class="next__link" href="#">1</a></li>
+            <li class="next__item"><a class="next__link" href="#">2</a></li>
+            <li class="next__item"><a class="next__link" href="#">3</a></li>
+            <li class="next__item">
+               <a class="next__link color" href="#">Next<span class="iconify next__icon"
+                     data-icon="ic:baseline-navigate-next" data-width="37" data-height="41"></span></a>
+            </li>
+         </ul>
+      </nav>
+   </main>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__content">
+            <img src="../img/Logo-Wh.png" alt="" class="footer__logo">
+            <form action="" class="footer__search">
+               <p class="footer__desc">Subscribe to Newslatter</p>
+               <div class="poiskovik">
+                  <input class="input footer__input" type="search" aria-label="Поиск">
+                  <button class="btn btn-outline-success button footer__btn" type="submit">SING UP</button>
+               </div>
+            </form>
+            <div class="footer__icons">
+               <a href="" class="footer__icon"><span class="iconify" data-icon="ph:telegram-logo-light" data-width="41"
+                     data-height="37"></span></a>
+               <a href="" class="footer__icon"><span class="iconify" data-icon="et:facebook" data-width="39"
+                     data-height="39"></span></a>
+               <a href="" class="footer__icon"><span class="iconify" data-icon="ant-design:instagram-outlined"
+                     data-width="38" data-height="38"></span></a>
+            </div>
+         </div>
+         <div class="info">
+            <ul class="footer__menu">
+               <li><a href="" class="footer__link">News</a></li>
+               <li><a href="" class="footer__link">Help</a></li>
+               <li><a href="" class="footer__link">Contact</a></li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+
+   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+
+</html>

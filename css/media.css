@@ -1,0 +1,301 @@
+@media (prefers-color-scheme: dark) {
+   :root {
+      --navbarBg: #0C0C0C;
+      --body: #313131;
+      --colorMain: #fff;
+      --linkHover: #adadad;
+   }
+}
+
+@media (max-width: 1399px) {
+   .i2 {
+      width: 80%;
+   }
+   .card-2__img {
+      object-fit: contain;
+      min-height: 200px;
+   }
+   .card-2__icon {
+      right: 10px;
+      top: 10px;
+   }
+   .playstation__title {
+      font-size: 42px;
+   }
+   .mt55 {
+      margin-top: 15px;
+   }
+}
+
+@media (max-width: 1199px) {
+   .products__link {
+      line-height: 25px;
+      font-size: 16px;
+   }
+   .i1 {
+      left: 12%;
+   }
+   .i2 {
+      right: 0;
+   }
+   .playstation__title {
+      text-align: center;
+   }
+   .playstation__link {
+      font-size: 16px;
+      line-height: 18px;
+      margin: 70px auto 0;
+   }
+   .playstation__logo {
+      margin: 10px auto 0;
+   }
+   .button {
+      font-size: 16px;
+      line-height: 18px;
+   }
+   .x-box__img {
+      max-width: 800px;
+      margin-top: -119px;
+   }
+   .vair__title {
+      display: inline-block;
+      margin-left: 0;
+   }
+}
+
+@media (max-width: 991px) {
+   .slider__title {
+      margin-bottom: 50px;
+      margin-top: 30px;
+   }
+   .products__link {
+      line-height: 70px;
+      font-size: 18px;
+   }
+   .products__sub-menu.show::before {
+      max-width: 85%;
+   }
+   .cards {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+   }
+   .i1 {
+      left: auto;
+      right: 25%;
+   }
+   .i2 {
+      top: 30px;
+   }
+   .cards-2 {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .playstation__content {
+      margin-left: 0;
+      order: 1;
+   }
+   .footer__content {
+      flex-direction: column;
+
+   }
+   .footer__icons, .footer__search {
+      margin: 0 auto;
+      margin-top: 30px;
+   }
+   .footer__logo {
+      margin: 0 auto;
+      margin-top: 10px;
+   }
+   .next__link {
+      font-size: 24px;
+   }
+   .next__icon {
+      width: 33px;
+      height: 33px;
+   }
+   .x-box__content {
+      margin: 0 auto 140px;
+      text-align: center;
+   }
+   .x-box__desc {
+      margin: 0 auto;
+   }
+   .x-box__title {
+      font-size: 40px;
+   }
+   .x-box__link {
+      position: static;
+      margin: 0 auto;
+   }
+   .viar__img {
+      margin-left: 0;
+   }
+}
+
+@media (max-width: 767px) {
+   .i1 {
+      right: 20%;
+   }
+   .x-box__img {
+      padding-bottom: 40px;
+   }
+   .viar__img {
+      max-width: auto;
+      width: 100%;
+   }
+   .viar__btn {
+      margin-top: 60px;
+   }
+   .s-menu {
+      text-align: left;
+   }
+   .smart-phone__sub-title {
+      font-size: 20px;
+   }
+   .smart-phone__link {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 30px;
+   }
+   .smart-phone__title {
+      font-size: 24px;
+   }
+   .ph-slider__img {
+      max-width: 250px;
+      width: 100%;
+      height: 350px;
+   }
+   .ph-slider {
+      flex-direction: column-reverse;
+   }
+   .ph-slider .ph-slider__indicarots {
+      margin-right: 0;
+      flex-direction: row;
+      max-width: auto;
+      width: 100%;
+   }
+   .ph-slider .ph-slider__btn {
+      margin: 0 10px;
+      margin-top: 20px;
+      width: 60px;
+      height: 80px;
+   }
+   .ph-slider .ph-slider__btn:first-of-type {
+      margin-bottom: -15px;
+   }
+}
+
+@media (max-width: 575px) {
+   .input {
+      padding: 0 10px;
+      min-width: 0;
+      font-size: 12px;
+   }
+   .search__btn {
+      font-size: 0;
+      min-width: 60px;
+      max-width: 80px;
+   }
+   .w100p {
+      justify-content: center;
+   }
+   .products__sub-menu.show {
+      right: 0;
+      left: auto;
+      min-width: 250px;
+   }
+   .slider__title {
+      font-size: 38px;
+   }
+   .card:nth-of-type(1) {
+      grid-column: span 1;
+      grid-row: span 1;
+   }
+   .card:nth-of-type(2) {
+      grid-column: span 1;
+      grid-row: span 1;
+   }
+   .cards {
+      grid-template-columns: repeat(1, 85%);
+      grid-template-rows: repeat(3, 1fr);
+      justify-content: center;
+   }
+   .i1 {
+      width: 150px;
+      top: auto;
+      bottom: 10px;
+      right: 10%;
+   }
+   .i2 {
+      top: 40%;
+      right: 0;
+      width: 100%;
+   }
+   .card:nth-of-type(-n+2) {
+      justify-content: start;
+   }
+    
+   .gatgets__numb {
+      font-size: 20px;
+   }
+   .gatgets__title {
+      font-size: 20px;
+   }
+   .gatgets__sale {
+      width: 55px;
+      height: 55px;
+      font-size: 16px;
+      top: auto;
+      bottom: 15px;
+   }
+   .cards-2 {
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .playstation__link {
+      margin-top: 40px;
+   }
+   .playstation__logo {
+      max-width: 200px;
+   }
+   .playstation__title {
+      font-size: 36px;
+   }
+   .footer__btn {
+      width: 100px;
+      padding: 10px;
+   }
+   .footer__input {
+      max-width: 200px;
+      width: 100%;
+   }
+   .footer__desc {
+      font-size: 16px;
+   }
+   .x-box__image {
+      max-height: 100px;
+      background: none;
+   }
+   .x-box__desc {
+      font-size: 18px;
+   }
+   .x-box__title {
+      font-size: 30px;
+      line-height: 36px;
+   }
+   .x-box__img {
+      margin-top: -130px;
+   }
+   .next {
+      padding: 20px 0;
+      margin-top: 50px;
+      display: block;
+   }
+   .x-box__link {
+      display: inline-block;
+   }
+   .viar__desc {
+      font-size: 18px;
+   }
+   .vair__title {
+      font-size: 34px;
+   }
+}
